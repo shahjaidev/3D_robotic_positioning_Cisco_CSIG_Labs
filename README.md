@@ -16,25 +16,32 @@ Steps
 
 Functions
 (1)	Void Orient()
+
 Description;
 Calculates required angle and turns motors till robot is properly oriented
 
 (2)	Void forward()
+
 Executes ‘forward’ command to motors and constantly checks if it has reached destination grid. Stops when it reaches destination
 
 (3)	void printRawSensorData()
+
 Prints current Euler Angles
 
 (4)	void send2slave(byte c)
+
 Sends a character command to the Slave Arduino which controls motors
 
 (5)	float get_heading()
+
 Gets orientation angle between 0 and 360 from the magnetometer
 
 (6)	void printCalibrationResult()
+
 Prints Successful or unsuccessful calibration of Anchors
 
 
 (7)	Pozyx.doPositioning(&coor, dimension, height, algorithm)
+
 Stores current coordinates of Tag in Object coor (Which is passed by reference)
 
