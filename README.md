@@ -2,7 +2,7 @@
 This repository is for a project I completed at CSIG Labs, Cisco Systems (San Jose). Using Posyx 3D positioning sensors configured and set up in a test room, I wrote up code for robotic navigation.
 
 
-![setup](/Pozyx 3D gyro.png)
+![setup](https://github.com/shahjaidev/3D_robotic_positioning_Cisco_CSIG_Labs/blob/master/Pozyx%203D%20gyro.png)
 
 Steps
 (1)	Establishes connection with 4 Pozyx Tags and finds initial coordinates
